@@ -181,3 +181,21 @@ input[title$="ni"] {
     background-image: blue;
 }
 
+.background {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://pbs.twimg.com/media/CJ-OoNYUYAAG6L9.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* background: url('https://pbs.twimg.com/media/CJ-OoNYUYAAG6L9.jpg') no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+/* przepełnianie elementu */
+.overflow {
+    width: 200px;
+    height: 300px;
+    border: 1px dotted #000;
+    overflow: hidden;
+}
